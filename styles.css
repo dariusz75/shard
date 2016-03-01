@@ -59,7 +59,7 @@ nav ul li input{
 	width: 100%;
 	padding: 15px;	
 	margin-top: 90px;
-	background-color: #C1E1D1;
+	background-color: #D8E0EC;
 	height: auto;
 	float: left;
 }
@@ -67,7 +67,7 @@ nav ul li input{
 /* ########### PLANNING SECTION ######################################## */
 .planning{
 	width: 100%;
-	background-color: #B6C6BD;
+	background-color: #F5F3F2;
 	padding: 15px;
 	float: left;
 }
@@ -75,7 +75,7 @@ nav ul li input{
 /* ########### FUNDING SECTION ######################################## */
 .funding{
 	width: 100%;
-	background-color: #C1E1D1;
+	background-color: #DAEDEF;
 	padding: 15px;
 	float: left;
 }
@@ -93,7 +93,7 @@ nav ul li input{
 /* ########### FACTS SECTION ######################################## */
 .facts{
 	width: 100%;
-	background-color: #60C38C;
+	background-color: #D8E0EC;
 	float: left;
 	padding: 15px;
 }
@@ -124,7 +124,7 @@ i.fa.fa-hand-o-right{
 /* ########### TENANTS SECTION ######################################## */
 .tenants{
 	width: 100%;
-	background-color: #B6C6BD;
+	background-color: #F5F3F2;
 	float: left;
 	padding: 15px;
 }
@@ -192,7 +192,7 @@ button.submit{
 /* ########### IFRAMES SECTION ######################################## */
 .iframes{
 	width: 100%;
-	background-color: #C1E1D1;
+	background-color: #DAEDEF;
 	float: left;
 	padding: 15px;
 }
