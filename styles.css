@@ -3,20 +3,27 @@
 	margin: 0;
 	font-family: 'Catamaran', sans-serif;
 	font-weight: 200;
-	color: #47494B
+	color: #47494B;
 }
 
 a{
 	text-decoration: none;
 }
 
+
+
 /* ########### HEADER ######################################## */
 header{
 	position: fixed;
+	margin: 0 auto 0 auto;
 	width: 100%;
 	height: 90px;
+	top: 0;
 	background-color: #CCD3D7;
 	z-index: 10000;
+	-webkit-box-shadow: 0 2px 2px -1px #000000;
+   -moz-box-shadow: 0 2px 2px -1px #000000;
+        box-shadow: 0 2px 2px -1px #000000;
 }
 
 .logo{
@@ -55,53 +62,63 @@ nav ul li input{
 }
 
 /* ########### ABOUT SECTION ######################################## */
+h1{
+	text-align: center;
+	font-size: 1.8em;
+}
+
 .about{
 	width: 100%;
-	padding: 15px;	
 	margin-top: 90px;
 	background-color: #D8E0EC;
 	height: auto;
+	overflow: auto;
+	
+}
+
+.texts{
+	width: 42%;
 	float: left;
+	padding: 25px 2% 3% 3%;
+}
+
+.images{
+	width: 49%;
+	float: right;	
+	padding: 80px 3% 3% 0;
 }
 
 /* ########### PLANNING SECTION ######################################## */
 .planning{
 	width: 100%;
 	background-color: #F5F3F2;
-	padding: 15px;
-	float: left;
+	
+	overflow: auto;
 }
 
 /* ########### FUNDING SECTION ######################################## */
 .funding{
 	width: 100%;
 	background-color: #DAEDEF;
-	padding: 15px;
-	float: left;
+	
+	overflow: auto;
 }
 
-.images{
-	width: 49%;
-	float: right;	
-}
-
-.texts{
-	width: 49%;
-	float: left;
-}
 
 /* ########### FACTS SECTION ######################################## */
 .facts{
 	width: 100%;
 	background-color: #D8E0EC;
-	float: left;
-	padding: 15px;
+	
+	overflow: auto;
 }
 
-.h-facts{
+.facts h2{
 	text-align: center;
 	font-size: 3em;
+	padding: 20px 0 20px 0;
 }
+
 
 ul.facts-list li{
 	display: inline-block;
@@ -111,6 +128,12 @@ ul.facts-list li{
 	text-align: center;
 	padding: 10px 0 10px 0;
 }
+
+ul.facts-list{
+	padding-bottom: 50px;
+	overflow: auto;
+}
+
 i.fa{
 	font-size: 0.4em;
 	vertical-align: middle;
@@ -121,17 +144,25 @@ i.fa.fa-hand-o-right{
 	font-size: 30px;
 }
 
+.facts h3{
+	display: table;
+	text-align: center;
+	font-size: 3em;
+	margin: 0px auto 50px auto;
+}
+
 /* ########### TENANTS SECTION ######################################## */
 .tenants{
 	width: 100%;
 	background-color: #F5F3F2;
-	float: left;
-	padding: 15px;
+	overflow: auto;
 }
 
 .tenents-side{
 	float: left;
 	width: 47%;
+	padding: 25px 2% 3% 3%;
+
 }
 
 .tenents-side>input{
@@ -165,6 +196,7 @@ h4{
 	float: left;
 	width: 35%;
 	margin-left: 50px;
+	padding: 25px 2% 3% 3%;
 }
 
 .booking-form{
@@ -193,17 +225,18 @@ button.submit{
 .iframes{
 	width: 100%;
 	background-color: #DAEDEF;
-	float: left;
-	padding: 15px;
+	overflow: auto;
 }
 
 .iframe-left{
 	float: left;
-	width: 49%;
+	width: 45%;
+	padding: 25px 2% 3% 3%;
 }
 
 .iframe-right{
-	float: left;
+	float: right;
 	margin-left: 20px;
-	width: 49%;
+	width: 41%;
+	padding: 25px 3% 3% 2%;
 }
