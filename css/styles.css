@@ -6,18 +6,15 @@
 	color: #47494B;
 }
 
-a{
-	text-decoration: none;
-}
-
-
-
 body {
 	
 	margin: 0 auto;
 	padding: 2%;
 }
 
+a{
+	text-decoration: none;
+}
 
 
 .flex-container {
@@ -65,12 +62,59 @@ body {
 }
 
 
-/* ########### ABOUT SECTION ######################################## */
-h1{
-	text-align: center;
-	font-size: 1.8em;
+
+/* ########### HEADER ######################################## */
+header{
+	position: fixed;
+	margin: 0 auto 0 auto;
+	width: 100%;
+	height: 90px;
+	top: 0;
+	background-color: #CCD3D7;
+	z-index: 10000;
+	-webkit-box-shadow: 0 2px 2px -1px #000000;
+   -moz-box-shadow: 0 2px 2px -1px #000000;
+        box-shadow: 0 2px 2px -1px #000000;
 }
 
+.logo{
+	display: inline;
+	position: absolute;
+	top: 12px;
+	left: 25px;
+}
+
+nav{
+	position: absolute;
+	right: 30px;
+	top:30px;
+}
+
+nav ul li{
+	display: inline-block;
+	margin-right: 30px;
+	font-size: 20px;
+	letter-spacing: 0.1em;
+	-moz-transition: all .5s ease-in;
+    -o-transition: all .5s ease-in;
+    -webkit-transition: all .8s ease-in;
+    transition: all .5s ease-in;
+}
+
+nav ul li:hover {
+  color: white;
+  cursor: pointer;
+  color: #ADB2B8;
+  
+}
+
+nav ul li input{
+	background-color: #5F6265;
+}
+
+
+
+/* ########### ABOUT SECTION ######################################## */
 .about{
 	
 	background-color: #cdd7e7;
@@ -81,6 +125,11 @@ h1{
 	
 	background-color: #cdd7e7;
 	margin: 0 0 0 2px;
+}
+
+h1{
+	text-align: center;
+	font-size: 1.8em;
 }
 
 .texts{
