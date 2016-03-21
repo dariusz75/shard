@@ -6,11 +6,7 @@
 	color: #47494B;
 }
 
-body {
-	
-	margin: 0 auto;
-	padding: 2%;
-}
+
 
 a{
 	text-decoration: none;
@@ -65,9 +61,9 @@ a{
 
 /* ########### HEADER ######################################## */
 header{
-	position: fixed;
-	margin: 0 auto 0 auto;
 	width: 100%;
+	margin: 0 !important;
+	position: fixed;
 	height: 90px;
 	top: 0;
 	background-color: #CCD3D7;
@@ -80,13 +76,13 @@ header{
 .logo{
 	display: inline;
 	position: absolute;
-	top: 12px;
-	left: 25px;
+	top: 0px;
+	left: 15px;
 }
 
 nav{
 	position: absolute;
-	right: 30px;
+	right: 0px;
 	top:30px;
 }
 
@@ -115,6 +111,10 @@ nav ul li input{
 
 
 /* ########### ABOUT SECTION ######################################## */
+#about{
+	margin-top: 90px;
+}
+
 .about{
 	
 	background-color: #cdd7e7;
@@ -282,3 +282,14 @@ button.submit{
 	margin-top: 20px;
 }
 
+/* ########### iFRAMES ######################################## */
+
+.movie{
+	background-color: #D8D6D6;
+	margin: 0 2px 0 0;
+}
+
+.map{
+	background-color: #D8D6D6;
+	margin: 0 0 0 2px;
+}
