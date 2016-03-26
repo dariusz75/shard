@@ -112,19 +112,20 @@ nav ul li input{
 
 /* ########### ABOUT SECTION ######################################## */
 #about{
-	margin-top: 90px;
+	padding-top: 70px;
 }
 
 .about{
 	
 	background-color: #cdd7e7;
 	margin: 0 2px 0 0;
+	
 }
 
-.about-pict{
-	
+.about-pict{	
 	background-color: #cdd7e7;
 	margin: 0 0 0 2px;
+	padding-top: 55px;
 }
 
 h1{
@@ -135,7 +136,7 @@ h1{
 .texts{
 	width: 42%;
 	float: left;
-	padding: 25px 2% 3% 3%;
+	padding: 55px 2% 3% 3%;
 }
 
 .images{
@@ -145,6 +146,12 @@ h1{
 }
 
 /* ########### PLANNING SECTION ######################################## */
+
+#planning{
+	margin: 0;
+	padding: 35px 0 0 0;
+}
+
 .planning{
 	background-color: #f1eddb;
 	margin: 0 2px 0 0;
@@ -153,11 +160,17 @@ h1{
 .planning-pict{
 	background-color: #f1eddb;
 	margin: 0 0 0 2px;
+	padding-top: 55px;
 }
 
 
 
 /* ########### FUNDING SECTION ######################################## */
+#funding {
+	margin: 0;
+	padding: 35px 0 0 0;
+}
+
 .funding{
 	background-color: #b5e2e4;
 	margin: 0 2px 0 0;
@@ -166,12 +179,17 @@ h1{
 .funding-pict{
 	background-color: #b5e2e4;
 	margin: 0 0 0 2px;
+	padding-top: 55px;
 }
 
 
 /* ########### FACTS SECTION ######################################## */
-.facts{
-	
+#facts {
+	margin: 0;
+	padding: 35px 0 0 0;
+}
+
+.facts{	
 	background-color: #D8E0EC;
 }
 
@@ -179,6 +197,7 @@ h1{
 	text-align: center;
 	font-size: 3em;
 	margin-top: 10px;
+	padding: 45px 0 35px 0;
 }
 
 
@@ -218,10 +237,15 @@ i.fa.fa-hand-o-right{
 .tenants{
 	background-color: #F5F3F2;
 	margin: 0 2px 0 0;
+	padding-top: 50px;
 }
 
 .tenants-wrapper{
 	width: 100%;
+}
+
+.tenants-wrapper h1{
+	padding-bottom: 15px;
 }
 
 .tenants-wrapper>input{
@@ -249,16 +273,24 @@ h4{
 
 .search {
 	margin-top: 10px;
+	font-size: 1.2rem;
 }
 
 /* ########### BOOKING SECTION ######################################## */
+#booking{
+	margin: 0;
+	padding: 35px 0 0 0;
+}
 
 .booking{
 	background-color: #F5F3F2;
 	margin: 0 0 0 2px;
+	padding-top: 50px;
 }
 
-
+.booking-wrapper h1{
+	padding-bottom: 15px;
+}
 
 .booking-form{
 	padding: 7px;
@@ -278,7 +310,8 @@ select.restaurants{
 
 button.submit{
 	float: right;
-	width: 38%;
+	width: 37%;
+	height: 22px;
 	margin-top: 20px;
 }
 
@@ -292,4 +325,16 @@ button.submit{
 .map{
 	background-color: #D8D6D6;
 	margin: 0 0 0 2px;
+}
+
+footer{
+	height: 50px;
+	background-color: #93C8D8;
+	margin: 0;
+	padding-top: 0;
+}
+
+.link{
+	text-decoration: none;
+	font-weight: 400;
 }
